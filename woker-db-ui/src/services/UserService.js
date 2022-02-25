@@ -7,8 +7,8 @@ class UserService {
   getUsers() {
     return axios.get(usersURL, {
       auth: {
-        username: 'restUser',
-        password: 'restPassword'
+        username: '[API_USERNAME]',
+        password: '[API_PASSWORD]'
       }
     });
   }
@@ -16,8 +16,8 @@ class UserService {
   deleteUser(id) {
     axios.delete((usersURL + "/" + id), {
       auth: {
-        username: 'restUser',
-        password: 'restPassword'
+        username: '[API_USERNAME]',
+        password: '[API_PASSWORD]'
       }
     });
   }
@@ -29,8 +29,8 @@ class UserService {
     }
     axios.post((usersURL), body, {
       auth: {
-        username: 'restUser',
-        password: 'restPassword'
+        username: '[API_USERNAME]',
+        password: '[API_PASSWORD]'
       }
     });
   }
