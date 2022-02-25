@@ -1,0 +1,6 @@
+
+Q
+java:S1128"4Remove this unused import 'org.hibernate.jdbc.Work'.(Ð“òï8ÉŒ¬‰ó/
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8ÉŒ¬‰ó/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âþ˜»ÿÿÿÿÿ
